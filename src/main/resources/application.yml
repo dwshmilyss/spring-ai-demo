@@ -7,7 +7,7 @@ spring:
     name: spring-ai-demo
   ai:
     openai:
-      api-key: sk-grroxmpzpvtamjsvfizdrrrosvztdonrudlilwsubyuhnwmr
+      api-key:
       base-url: https://api.siliconflow.cn
       chat:
         options:

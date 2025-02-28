@@ -28,6 +28,7 @@ To ask questions you can call `ask-ai` providing your prompt, such as:
 
 ```
 http://localhost:8080/ask-ai?prompt=how%20are%20you
+http://localhost:8080/ask-ai?prompt=用Java代码格式生成一个快速排序的方法，并用junit生成测试用例，生成结果在html页面中以markdown的格式输出
 ```
 
 #### Templated prompts
@@ -44,5 +45,6 @@ Image generation can be accessed via `http://localhost:8080/generate-image?promp
 For example:
 
 ```
+调用这种生成图片的api需要付费
 http://localhost:8080/generate-image?prompt=cute%20cat
 ```
